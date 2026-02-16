@@ -1,0 +1,31 @@
+h2{
+    background-color:white;
+    color:black;
+
+
+}
+p,a{
+    background-color:brown;
+    color:black;
+    font-size:20px;
+    padding:10px;
+
+
+
+}
+carousel
+/* Make the carousel full viewport height */
+#myCarousel {
+  height: 100vh; /* full screen height */
+}
+
+#myCarousel .carousel-item {
+  height: 100vh;
+}
+
+/* Make images cover the carousel area */
+#myCarousel .carousel-item img {
+  object-fit: cover; /* cover the entire space */
+  height: 100%;      /* match carousel height */
+  width: 100%;
+}
